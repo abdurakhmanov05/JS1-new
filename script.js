@@ -35,7 +35,7 @@ if(nameOne[0] === 'A' && ageOne === true) {
 // let nameTwo = prompt('what is your name?').trim()
 // let guests = 'Mirziyoyev, Putin, Obama, Biden, Zelenskiy, Trump'
 
-// if(nameTwo === guests) {
+// if(guests.includes(nameTwo)) {
 //     alert(`welcome mr ${nameTwo}`)
 // } else(
 //     alert(`u are not on the list ${nameTwo}`)
