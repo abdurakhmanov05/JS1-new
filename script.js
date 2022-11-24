@@ -10,14 +10,14 @@ if(number % 2 === 0) {
 
 // 2 //
 
-// let name = prompt('what is your name?').trim()
-// let age = +prompt('how old are u?')
+let name = prompt('what is your name?').trim()
+let age = +prompt('how old are u?')
 
-// if(name.length % 2 === 0 && age <= 18) {
-//     alert('welcome')
-// } else(
-//     alert('go home')
-// )  
+if(name.length % 2 === 0 && age <= 18) {
+    alert('welcome')
+} else(    
+    alert('go home')
+)  
 
 // 3 //
 
@@ -32,11 +32,11 @@ if(nameOne[0] === 'A' && ageOne === true) {
 
 // 4 //
 
-// let nameTwo = prompt('what is your name?').trim()
-// let guests = 'Mirziyoyev, Putin, Obama, Biden, Zelenskiy, Trump'
+let nameTwo = prompt('what is your name?').trim()
+let guests = 'Mirziyoyev, Putin, Obama, Biden, Zelenskiy, Trump'
 
-// if(guests.includes(nameTwo)) {
-//     alert(`welcome mr ${nameTwo}`)
-// } else(
-//     alert(`u are not on the list ${nameTwo}`)
-// )
+if(guests.includes(nameTwo)) {
+    alert(`welcome mr ${nameTwo}`)
+} else(
+    alert(`u are not on the list ${nameTwo}`)
+)
