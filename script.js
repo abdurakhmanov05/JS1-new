@@ -10,10 +10,10 @@ if(number % 2 === 0) {
 
 // 2 //
 
-// let name = prompt('what is your name?').toUpperCase().trim()
+// let name = prompt('what is your name?').trim()
 // let age = +prompt('how old are u?')
 
-// if(name % 2 === 0 && age <= 18) {
+// if(name.length % 2 === 0 && age <= 18) {
 //     alert('welcome')
 // } else(
 //     alert('go home')
